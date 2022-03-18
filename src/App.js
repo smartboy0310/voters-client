@@ -54,6 +54,8 @@ function App() {
 
 			
 		</div>
+		{ loading && <h1>Loading</h1>}
+    { error && <h1>Error</h1>}
 		{ 
       data && data.voters.map((e, i) => (
         <div key={i}>
