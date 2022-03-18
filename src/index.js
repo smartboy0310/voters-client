@@ -4,7 +4,7 @@ import App from './App';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 
 const client = new ApolloClient({
-  uri: 'http://localhost:7000/graphql',
+  uri: 'https://voters-app-lap.herokuapp.com/graphql',
   cache: new InMemoryCache()
 })
 ReactDOM.render(
